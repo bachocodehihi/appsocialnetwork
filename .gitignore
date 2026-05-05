@@ -1,0 +1,7 @@
+node_modules/ 
+.dart_tool/ 
+build/ 
+.pub-cache/ 
+.env 
+**/firebase-service-account.json 
+*.json 
