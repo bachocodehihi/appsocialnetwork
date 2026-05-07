@@ -1,52 +1,65 @@
 # Social Network App
-
-A full-stack social networking application built with Flutter and Node.js.
+Ứng dụng mạng xã hội full-stack được xây dựng bằng Flutter và Node.js.
 
 # Frontend (Flutter)
 
-## Features
+## Chức năng
 
-### Authentication
-- Email verification with OTP
-- Secure registration & login
-- Forgot password flow
-- Form validation
+### Xác thực người dùng
+- Xác minh email bằng OTP (mã 6 số)
+- Đăng ký & đăng nhập bảo mật
+- Quên mật khẩu bằng OTP
+- Kiểm tra dữ liệu biểu mẫu
+- Hiện/ẩn mật khẩu
+
+### Hồ sơ người dùng
+- Cập nhật thông tin cá nhân
+- Thay đổi avatar
+- Cập nhật ngày sinh, giới tính, nghề nghiệp, quốc tịch
+- Xem hồ sơ người dùng
+
+### Chức năng mạng xã hội
+- Tìm kiếm người dùng theo thời gian thực
+- Hệ thống kết bạn
+- Theo dõi / bỏ theo dõi người dùng
+- Hiển thị thống kê người dùng (bài viết, bạn bè, followers)
+- Nhắn tin thời gian thực
+- Quét mã QR để xem thông tin người dùng
+
+### Thông báo
+- Push notification bằng Firebase Cloud Messaging (FCM)
+- Nhận thông báo ngay cả khi ứng dụng đã tắt
+- Quản lý FCM token
 
 ### UI/UX
-- Responsive design (mobile + web)
-- Light/Dark theme
-- Custom dialogs & loading states
-- Password visibility toggle
-
-### Social Features
-- Real-time user search
-- Friend system
-- User profile with statistics
+- Responsive cho mobile & web
+- Hỗ trợ giao diện sáng/tối
+- Dialog tùy chỉnh
+- Loading state & error banner
+- Responsive UI bằng Flutter ScreenUtil
 
 # Backend (Node.js + MongoDB)
 
-## Features
+## Chức năng
 
 ### Authentication & Security
 - JWT Authentication
 - OTP verification system
 - Password strength validation
-- Security middleware (CORS, Helmet)
+- Middleware bảo mật (CORS, Helmet)
 
 ### Account Management
-- Profile update APIs
-- Avatar upload with Cloudinary
-- QR code generation
-- FCM token management
+- API cập nhật hồ sơ người dùng
+- Upload avatar bằng Cloudinary
+- Tạo & lưu QR code người dùng
+- Quản lý FCM token
 
 ### Cloud & DevOps
-- Environment configuration using `.env`
-- Cloudinary integration
+- Cấu hình môi trường bằng `.env`
+- Tích hợp Cloudinary
 - RESTful API architecture
 
----
-
-# Tech Stack
+# Công nghệ sử dụng
 
 ## Frontend
 - Flutter
@@ -61,11 +74,9 @@ A full-stack social networking application built with Flutter and Node.js.
 - JWT
 - Cloudinary
 
-# Project Structure
-
+# Cấu trúc dự án
 Flutter/socialnetwork-app
 Nodejs/backend-socialnetwork
 
-# Author
-
+# Tác giả
 Developed by Bach Do
