@@ -24,11 +24,15 @@
 - Theo dõi / bỏ theo dõi người dùng
 - Hiển thị thống kê người dùng (bài viết, bạn bè, followers)
 - Nhắn tin thời gian thực
+- Chat cá nhân 1-1
+- Chat nhóm nhiều người
+- Tạo & quản lý nhóm chat
 - Quét mã QR để xem thông tin người dùng
 
 ### Thông báo
 - Push notification bằng Firebase Cloud Messaging (FCM)
 - Nhận thông báo ngay cả khi ứng dụng đã tắt
+- Thông báo khi có tin nhắn mới
 - Quản lý FCM token
 
 ### UI/UX
@@ -54,6 +58,12 @@
 - Tạo & lưu QR code người dùng
 - Quản lý FCM token
 
+### Realtime System
+- Realtime messaging với Socket.IO
+- Hỗ trợ chat cá nhân & chat nhóm
+- Đồng bộ tin nhắn theo thời gian thực
+- Push notification khi có tin nhắn mới
+
 ### Cloud & DevOps
 - Cấu hình môi trường bằng `.env`
 - Tích hợp Cloudinary
@@ -66,6 +76,7 @@
 - GetX
 - Flutter ScreenUtil
 - Firebase Messaging
+- socket_io_client
 
 ## Backend
 - Node.js
