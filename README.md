@@ -74,6 +74,7 @@
 - JWT
 - Cloudinary
 - Socket.IO
+- Firebase Admin SDK
 
 # Cấu trúc dự án
 Flutter/socialnetwork-app
