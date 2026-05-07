@@ -34,10 +34,10 @@ A full-stack social networking application built with Flutter and Node.js.
 - Security middleware (CORS, Helmet)
 
 ### Account Management
-- ✅ Profile update APIs
-- ✅ Avatar upload with Cloudinary
-- ✅ QR code generation
-- ✅ FCM token management
+- Profile update APIs
+- Avatar upload with Cloudinary
+- QR code generation
+- FCM token management
 
 ### Cloud & DevOps
 - Environment configuration using `.env`
