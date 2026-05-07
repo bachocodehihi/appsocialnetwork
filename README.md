@@ -73,6 +73,7 @@
 - MongoDB
 - JWT
 - Cloudinary
+- Socket.IO
 
 # Cấu trúc dự án
 Flutter/socialnetwork-app
