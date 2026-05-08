@@ -88,8 +88,8 @@
 - Firebase Admin SDK
 
 # Cấu trúc dự án
-Flutter/socialnetwork-app
-Nodejs/backend-socialnetwork
+- Flutter/socialnetwork-app
+- Nodejs/backend-socialnetwork
 
 # Tác giả
 Developed by Bach Do
